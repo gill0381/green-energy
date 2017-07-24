@@ -7,7 +7,7 @@
 
     masthead = document.querySelector(".masthead");
     
-    slides = ["<figure><img src=\"./img/windmill.jpg\" alt=\"slide-one-description\" /> <figcaption> Green energy               plays an integral role in our life.</figcaption></figure>",
+    slides = ["<figure><img src=\"./img/windmill.jpg\" alt=\"slide-one-description\" /> <figcaption> Green energy plays an integral role in our life.</figcaption></figure>",
               "<figure><img src=\"./img/windmil.jpg\" alt=\"slide-one-description\" /> <figcaption> It proves to be a boon in our life.</figcaption></figure>",
               "<figure><img src=\"./img/windfarm.jpg\" alt=\"slide-one-description\" /> <figcaption> This has changed the whole scenaio of the world.</figcaption></figure>",
               "<figure><img src=\"./img/wood.jpg\" alt=\"slide-one-description\" /> <figcaption>World has been revolutionised by green energy.</figcaption></figure>"
@@ -40,11 +40,7 @@
 
      window.setInterval(runSlides, 6000);
 
-
-
- 
-    
-    var buttons, contents, container, i;
+   var buttons, contents, container, i;
 
      buttons = document.querySelectorAll(".btn");
     
@@ -52,8 +48,6 @@
                 "<figure><img src=\"./img/train.jpg\" alt=\"slide-one-description\" /> <figcaption>The concept of green energy would also reduce the global<br> warming in the modern day world. Owing to industrialisation,<br> the carbon monoxide emissions are increasing which leads to<br> global warming. In such circumstances, green energy would<br> prove to be a boon for people. </figcaption></figure>",
                 "<figure><img src=\"./img/sunflower.jpg\" alt=\"slide-one-description\" /> <figcaption>In the modern era, non-renewable resources are also<br> decreasing which are very harmful for the future generation.<br> Hence, the consumption of green energy can reduce them.</figcaption></figure>"
                ];
-
-        
 
     container = document.querySelector(".container");
 
